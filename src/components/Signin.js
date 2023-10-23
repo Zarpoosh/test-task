@@ -12,7 +12,7 @@ const Signin = () => {
           {/* form  */}
           <form action="" className="flex flex-col ">
             <div className="flex-col flex w-auto m-3">
-              <label className="text-gray-400" htmlFor="email">
+              <label className="text-gray-400 mb-3" htmlFor="email">
                 Email Address
               </label>
               <input
@@ -22,7 +22,7 @@ const Signin = () => {
               />
             </div>
             <div className="flex-col flex w-auto  m-3">
-              <label className="text-gray-400" htmlFor="password">
+              <label className="text-gray-400 mb-3" htmlFor="password">
                 Password
               </label>
               <input
@@ -58,7 +58,6 @@ const Signin = () => {
           </form>
           {/* end of form */}
         </div>
-        <div></div>
       </div>
     </>
   );

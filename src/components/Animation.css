@@ -1,0 +1,53 @@
+.watrecontainer,
+.watrecontainer2 {
+  top: 6rem;
+  left: -5rem;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+}
+
+.watrecontainer::after {
+  position: absolute;
+  content: "";
+  width: 204%;
+  height: 204%;
+  background-color: #8550f8d0;
+  top: -120%;
+  left: -52%;
+  border-radius: 40%;
+  animation: wawe 12s infinite linear;
+  animation-delay: 0.5s;
+}
+.watrecontainer2::after {
+  position: absolute;
+  content: "";
+  width: 180%;
+  height: 180%;
+  background-color: #40d1f2;
+  top: -150%;
+  left: -52%;
+  border-radius: 40%;
+  animation: wawe 12s infinite linear;
+  animation-delay: 0.5s;
+}
+
+.watrecontainer::before {
+  position: absolute;
+  content: "";
+  width: 220%;
+  height: 220%;
+  background-color: #c62ff8;
+  top: -150%;
+  left: -50%;
+  border-radius: 40%;
+  animation: wawe 12s infinite linear;
+}
+@keyframes wawe {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
