@@ -51,3 +51,14 @@
     transform: rotate(360deg);
   }
 }
+
+p {
+  position: absolute;
+
+  text-shadow: 0px 0px 12px #000dca;
+}
+@media only screen and (min-width: 730px) {
+  p {
+    display: none;
+  }
+}

@@ -1,9 +1,11 @@
 import React from "react";
 import "./Signin.css";
+import { BsChevronLeft } from "react-icons/bs";
 
 const Signin = () => {
   return (
     <>
+      <BsChevronLeft className="text-red-400"/>
       <div className="flex mx-auto mt-[30vh] flex-col  w-4/5 md:w-2/5">
         <div className="ml-4 font-bold mb-5">
           <h1 className="text-3xl text-gray-800">Sign in</h1>
@@ -29,7 +31,9 @@ const Signin = () => {
                 className="border-b-2 border-blue-600 p-2"
                 name="password"
                 type="password"
+                
               />
+            
             </div>
             <div className="ml-4">
               <a className="text-blue-700 text-lg" href="">
