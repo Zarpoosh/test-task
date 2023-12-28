@@ -1,11 +1,11 @@
 import React from "react";
 import "./Signin.css";
-import { BsChevronLeft } from "react-icons/bs";
+// import { BsChevronLeft } from "react-icons/bs";
 
 const Signin = () => {
   return (
     <>
-      <BsChevronLeft className="text-red-400"/>
+      {/* <BsChevronLeft className="text-red-400"/> */}
       <div className="flex mx-auto mt-[30vh] flex-col  w-4/5 md:w-2/5">
         <div className="ml-4 font-bold mb-5">
           <h1 className="text-3xl text-gray-800">Sign in</h1>
